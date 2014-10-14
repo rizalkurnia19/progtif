@@ -9,7 +9,7 @@ import datetime
 import time
 
 #rss feed
-url_str = 'http://startupbisnis.com/feed/?edition=int'
+url_str = 'http://startupbisnis.com/feed/'
 xml_str = urllib.urlopen(url_str).read()
 xmldoc = minidom.parseString(xml_str)
 
